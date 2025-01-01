@@ -1,0 +1,17 @@
+import streamlit as st
+
+st.title("Hierarchical Data Viewer")
+st.header("This is a header")
+st.subheader("This is a subheader")
+st.caption("This is caption")
+st.write("This is write")
+st.code("y = variable()\nanother_call()", "python")
+st.markdown("**bold**")
+st.divider()
+st.latex("....")
+st.error("Error")
+st.info("Infor")
+st.warning("Warning")
+st. success("Success")
+st.balloons()
+st.snow()
